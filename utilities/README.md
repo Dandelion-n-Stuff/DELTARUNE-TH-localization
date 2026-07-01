@@ -1,0 +1,1 @@
+These directory contains the utilities - whether that would be a Python or BASH script - to help aid the development of this DELTARUNE modifications. Each utilities are licensed separately, please view the LICENSE file in each directory.
