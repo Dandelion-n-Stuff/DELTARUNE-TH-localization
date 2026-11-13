@@ -10,7 +10,7 @@ According to Thailand's Copyright Act, B.E. 2537 (1994) "พระราชบ�
 
 If the operator of the machines would like to proceed anyway, do self-identify your agent in the "Signed-Off" feature of Git. So it is easier for us to reject the pull request. Additionally, do tell them to watch out for any potential legal issues and that I would personally be punching them in the face, if found. **You have been warned**.
 
-Additionally, please do tell the operator of the Large Language Model to **READ** the README file in regards to contributing to this project at (these sections)[README.md#การมีส่วนร่วม], as it is mandatory to read before submitting ANY contributions to this project.
+Additionally, please do tell the operator of the Large Language Model to **READ** the README file in regards to contributing to this project at [these sections](README.md#การมีส่วนร่วม), as it is mandatory to read before submitting ANY contributions to this project.
 
 You may fork this as your own, but of course you'd still have to license it under the same license. This is NOT licensed under a permissive license like MIT or BSD, neither is it a public domain work, you'd know this if you read the README and LICENSE files.
 
