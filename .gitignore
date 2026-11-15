@@ -1,4 +1,13 @@
-DELTARUNE/*
+DELTARUNE/
+DELTARUNEdemo/
+modifications/
+output/
+outputDEMO/
+utilities/*/*.yy
+utilities/*/__pycache__
+**/__pycache__/
+utilities/jsonAggregatorNVerifier/data/
+utilities/jsonAggregatorNVerifier/data.out/
 *.kra~
 *.png~
 *autosave.kra
