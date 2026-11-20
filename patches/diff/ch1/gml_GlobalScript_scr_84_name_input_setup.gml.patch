@@ -1,0 +1,78 @@
+7a8
+>     
+68a70,101
+>     else if (LANGSUBTYPE == 4)
+>     {
+>         xoff = 28;
+>         yoff = 80;
+>         xstep = 20;
+>         ystep = 15;
+>         PLAYERNAMEY = 60;
+>         menu[0] = "ฯกขฃคฅฆง ่้๊๋์";
+>         menu[1] = "๚จฉ ชซฌญ ิีึื๎";
+>         menu[2] = "ฎฏฐ ฑ ฒณ ั็๋ๆๅ";
+>         menu[3] = "ดตถ ท ธน ะาำฤฦ";
+>         menu[4] = "บปผฝพฟภม เแโใไ";
+>         menu[5] = "ยรลวศษสหฬอฮฺุู";
+>         menu[6] = ">> <<<<>>>> <<";
+>         menu[7] = ">>>> <<>> <<<<";
+>     }
+>     else if (LANGSUBTYPE == 5)
+>     {
+>         xoff = 46;
+>         yoff = 80;
+>         xstep = 28;
+>         ystep = 15;
+>         PLAYERNAMEY = 60;
+>         menu[0] = "ABCDEFGHI";
+>         menu[1] = "JKLMNOPQR";
+>         menu[2] = "STUVWXYZ ";
+>         menu[3] = "         ";
+>         menu[4] = "         ";
+>         menu[5] = "         ";
+>         menu[6] = "> <<>>> <";
+>         menu[7] = ">> <>> <<";
+>     }
+69a103
+>     
+73a108
+>         
+80a116
+>     
+102a139
+>         
+128a166,199
+>         NAMEX[6][7] = (xoff + 180) - 32;
+>         NAMEY[6][7] = yoff + 105 + 16;
+>         CURX = 7;
+>         CURY = 6;
+>     }
+>     else if (LANGSUBTYPE == 4)
+>     {
+>         NAME[2][6] = "(4)อักษรไทย";
+>         NAMEX[2][6] = (xoff + 32) - 18;
+>         NAMEY[2][6] = yoff + 90 + 8;
+>         NAME[11][6] = "(5)อักษรโรมัน";
+>         NAMEX[11][6] = (xoff + 200) - 60;
+>         NAMEY[11][6] = yoff + 90 + 8;
+>         NAME[4][7] = "(B)ลบ";
+>         NAMEX[4][7] = (xoff + 64) - 8;
+>         NAMEY[4][7] = yoff + 105 + 16;
+>         NAME[9][7] = "(E)ตกลง";
+>         NAMEX[9][7] = (xoff + 180) - 32;
+>         NAMEY[9][7] = yoff + 105 + 16;
+>         CURX = 7;
+>         CURY = 6;
+>     }
+>     else if (LANGSUBTYPE == 5)
+>     {
+>         NAME[1][6] = "(4)อักษรไทย";
+>         NAMEX[1][6] = (xoff + 32) - 18;
+>         NAMEY[1][6] = yoff + 90 + 8;
+>         NAME[7][6] = "(5)อักษรโรมัน";
+>         NAMEX[7][6] = (xoff + 200) - 60;
+>         NAMEY[7][6] = yoff + 90 + 8;
+>         NAME[2][7] = "(B)ลบ";
+>         NAMEX[2][7] = (xoff + 64) - 8;
+>         NAMEY[2][7] = yoff + 105 + 16;
+>         NAME[6][7] = "(E)ตกลง";

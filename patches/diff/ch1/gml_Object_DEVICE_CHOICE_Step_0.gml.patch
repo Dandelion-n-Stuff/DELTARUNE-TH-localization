@@ -1,0 +1,18 @@
+149c149,153
+<     scr_84_set_draw_font("main");
+---
+>     if (global.lang == "th") {
+>         scr_84_set_draw_font("monomain");
+>     } else {
+>         scr_84_set_draw_font("main");
+>     }
+202c206
+<             if (cmd == "1" || cmd == "2" || cmd == "3")
+---
+>             if (cmd == "1" || cmd == "2" || cmd == "3" || cmd == "4" || cmd == "5")
+203a208,212
+>                 if (global.lang == "th") {
+>                     scr_84_set_draw_font("monomain");
+>                 } else {
+>                     scr_84_set_draw_font("main");
+>                 }
